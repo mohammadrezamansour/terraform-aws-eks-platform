@@ -1,0 +1,33 @@
+# Terraform core
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform plans
+*.tfplan
+plan.out
+
+# Terraform variables secrets/local overrides
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars.json
+secrets.tfvars
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+# Terraform working directory
+.terraform/
+
+# CLI config / credentials
+.terraformrc
+terraform.rc
+
+# IDE
+.vscode/
+.idea/
